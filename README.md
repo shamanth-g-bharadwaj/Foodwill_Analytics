@@ -107,7 +107,7 @@ This project uses a combination of analytics and visualisation tools:
 
 - **Python** — data cleaning, interpolation, preprocessing, and statistical analysis
 - **Excel** — manual inspection, validation, and exploratory review
-- **Tableau** — forecasting, dashboard design, and interactive visualisation
+- **PowerBI** — forecasting, dashboard design, and interactive visualisation
 
 These tools were selected to balance automation, transparency, and effective communication of insights. :contentReference[oaicite:13]{index=13}
 
@@ -122,19 +122,6 @@ This repository is designed to support the creation of:
 - SDG 2 monitoring dashboards
 - Evidence-based recommendations for NGO intervention planning
 
-## Project Structure
-
-    foodwill-sdg2-eurasia-analytics/
-    ├── data/
-    │   ├── raw/                # Original FAO dataset exports
-    │   └── processed/          # Cleaned and transformed datasets
-    ├── notebooks/              # Exploratory analysis and preprocessing notebooks
-    ├── scripts/                # Python scripts for cleaning and transformation
-    ├── dashboards/             # Tableau workbooks / dashboard assets
-    ├── outputs/                # Charts, exports, and summary outputs
-    ├── docs/                   # Project documentation and references
-    └── README.md
-
 ## Data Quality Considerations
 
 Several data quality issues were identified during the project:
@@ -146,19 +133,6 @@ Several data quality issues were identified during the project:
 
 These issues are analytically important because they can distort food insecurity estimates and weaken decision-making quality if not handled carefully. For that reason, the project adopts structured preprocessing and context-aware treatment of incomplete and irregular observations. :contentReference[oaicite:14]{index=14} :contentReference[oaicite:15]{index=15}
 
-## Why This Project Matters
-
-Food insecurity analytics is not only a technical exercise but also a humanitarian one. By converting raw FAO development indicators into clear analytical outputs, this project supports:
-
-- better NGO prioritisation
-- more targeted intervention planning
-- stronger communication of hunger-related trends
-- improved alignment with global SDG monitoring efforts
-
-## Repository Status
-
-This repository represents an academic analytics project developed as part of the **IS6051 Continuous Assessment**. It may include dataset processing scripts, transformed data files, visualisation assets, and supporting documentation related to the dashboarding workflow required by the project brief. :contentReference[oaicite:16]{index=16}
-
 ## References
 
 - FAO. *Food Security & Nutrition / Suite of Food Security Indicators*
@@ -166,10 +140,6 @@ This repository represents an academic analytics project developed as part of th
 - Dong, Y., & Peng, C. J. (2013). *Principled missing data methods for researchers*
 - Ibrahim, E., Shouman, M. A., Torkey, H., & El-Sayed, A. (2021). *Handling missing and outliers’ values by enhanced algorithms for an accurate diabetic classification system*
 
-## Authors
-
-Developed as part of the **IS6051 Continuous Assessment** project for **Group 25**.
-
 ## License
 
-This project is intended for **academic and educational use** unless otherwise specified.
+This project is intended for **academic and educational use** only.
